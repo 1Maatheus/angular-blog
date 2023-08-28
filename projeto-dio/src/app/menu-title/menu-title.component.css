@@ -1,0 +1,25 @@
+.title {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 8.5rem;
+
+  margin-top: 90px;
+}
+
+.title::before {
+  content: "";
+  display: block;
+  width: 1000px;
+  height: 2px;
+  background-color: #b4b4b420;
+  margin: 0 auto;
+}
+
+.title::after {
+  content: "";
+  display: block;
+  width: 1000px;
+  height: 2px;
+  background-color: #b4b4b420;
+  margin: 0 auto;
+}
