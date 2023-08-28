@@ -1,5 +1,20 @@
 <app-menu-bar> Hello, world! (Menu bar) </app-menu-bar>
 <app-menu-title> Hello, world! (Menu title) </app-menu-title>
-<app-big-card> Hello, world! (Big card) </app-big-card>
-<app-small-card> Hello, world! (Small cards) </app-small-card>
+
+<div class="grid-content">
+  <div class="left-content">
+    <app-big-card></app-big-card>
+  </div>
+
+  <div class="right-content">
+    <app-small-card></app-small-card>
+    <hr class="separator" />
+    <app-small-card> </app-small-card>
+    <hr class="separator" />
+    <app-small-card></app-small-card>
+    <hr class="separator" />
+    <app-small-card></app-small-card>
+  </div>
+</div>
+
 <router-outlet></router-outlet>

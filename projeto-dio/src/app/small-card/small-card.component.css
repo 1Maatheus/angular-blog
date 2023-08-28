@@ -1,0 +1,42 @@
+.articles {
+  display: flex;
+  gap: 20px;
+}
+
+.article-img {
+  width: 200px;
+  height: 100px;
+}
+
+.fig-cap {
+  color: #dbdbdb7e;
+}
+
+.paragraph {
+  font-weight: 200;
+  letter-spacing: 1.1px;
+  margin-top: 10px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  margin-top: -5px;
+}
+
+@media (max-width: 410px) {
+  .articles {
+    flex-direction: column;
+    padding: 0px 10px;
+    margin-bottom: 20px;
+  }
+
+  .article-img {
+    width: 100%;
+    height: auto;
+  }
+
+  .paragraph {
+    text-align: center;
+  }
+}

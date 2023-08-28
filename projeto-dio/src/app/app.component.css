@@ -1,0 +1,33 @@
+.grid-content {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin-top: 90px;
+}
+
+.left-content {
+  display: flex;
+}
+
+.right-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.separator {
+  opacity: 0.4;
+}
+
+@media (max-width: 410px) {
+  .grid-content {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 40px;
+    place-items: center;
+  }
+}
