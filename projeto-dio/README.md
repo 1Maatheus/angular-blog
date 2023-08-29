@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # ProjetoDio
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.0.
@@ -26,14 +25,3 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-=======
-# A blog with Angular <img align="center" src="https://skillicons.dev/icons?i=angular" />
-
-<hr>
-
-Projeto de criação de um blog usando o Angular como tecnologia principal. Treinando conceitos da tecnologia de modo aplicado!
-
-## Preview :
-
-<img src="./assets/images/preview.png">
->>>>>>> 10e68a425ba56619822ba130db4529de077f93e2

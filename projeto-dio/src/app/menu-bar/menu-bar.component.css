@@ -1,0 +1,37 @@
+.header {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.ang-logo {
+  width: 150px;
+  height: 40px;
+}
+
+.list {
+  display: flex;
+  gap: 40px;
+  font-size: 1.4em;
+}
+
+.list-item {
+  border: 1px solid transparent;
+  padding: 6px;
+  transition: 0.4s ease;
+}
+
+.list-item:hover {
+  border-bottom: 1px solid #ffffff;
+}
+
+@media (max-width: 410px) {
+  .header {
+    justify-content: center;
+    gap: 20px;
+  }
+}
