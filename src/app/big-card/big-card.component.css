@@ -1,0 +1,36 @@
+.logo {
+  width: 100%;
+}
+
+.fig-cap {
+  color: #dbdbdb7e;
+}
+
+.news-title {
+  margin-top: 20px;
+}
+
+.paragraph {
+  color: gray;
+  margin: 40px 0px;
+}
+
+@media (max-width: 410px) {
+  .content {
+    padding: 0px 10px;
+  }
+
+  .paragraph {
+    color: gray;
+    margin: 20px 0px;
+    font-size: 1.1em;
+  }
+
+  .news-title {
+    font-size: 2em;
+  }
+
+  .fig-cap {
+    font-size: 0.85em;
+  }
+}
